@@ -8,6 +8,7 @@ const navItems = [
   { id: 'tecnologias', label: 'Tecnologias' },
   { id: 'etapas', label: 'Etapas' },
   { id: 'desafios', label: 'Desafios' },
+  { id: 'prototipo', label: 'Protótipo do App' },
   { id: 'testes', label: 'Testes' },
   { id: 'cronograma', label: 'Cronograma' },
   { id: 'reflexao', label: 'Reflexão' },
@@ -498,6 +499,121 @@ function App() {
               <p className="mt-8 text-sm leading-relaxed text-slate-600">
                 Esses desafios fortaleceram a equipe e prepararam o caminho para a próxima etapa: construir o protótipo online da EcoLiving e validar as automações propostas.
               </p>
+            </section>
+
+            <section id="prototipo" className="rounded-[2.5rem] border border-emerald-100/60 bg-white/70 p-10 shadow-xl backdrop-blur">
+              <div className="flex items-center gap-3">
+                <span className="h-1.5 w-10 rounded-full bg-emerald-400" />
+                <p className="text-xs font-semibold uppercase tracking-[0.35em] text-emerald-500">
+                  Protótipo do aplicativo
+                </p>
+              </div>
+              <p className="mt-6 text-lg leading-relaxed text-slate-700">
+                Desenvolvemos um protótipo visual completo do aplicativo EcoLiving, mostrando a interface intuitiva e as principais funcionalidades que tornam a automação sustentável acessível para toda a família.
+              </p>
+
+              <div className="mt-10 space-y-12">
+                <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+                  <div className="overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50/50 to-white/80 p-6 shadow-xl">
+                    <img 
+                      src="/prints/a1.jpg" 
+                      alt="Tela inicial do aplicativo EcoLiving" 
+                      className="w-full rounded-2xl shadow-lg"
+                    />
+                  </div>
+                  <div className="space-y-4">
+                    <div className="rounded-3xl border border-emerald-100 bg-white/90 p-6 shadow-inner">
+                      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-500">
+                        Tela 01 • Menu principal
+                      </p>
+                      <h3 className="mt-3 text-xl font-bold text-emerald-800">
+                        Navegação simples e intuitiva
+                      </h3>
+                      <p className="mt-4 text-sm leading-relaxed text-slate-700">
+                        A tela inicial apresenta quatro módulos principais organizados de forma clara: <strong>Consumo</strong> para monitorar energia, água e alimentos; <strong>Alertas</strong> com recomendações personalizadas; <strong>Receitas</strong> sugerindo pratos com ingredientes próximos ao vencimento; e <strong>Relatório</strong> com o resumo semanal de economia e impacto ambiental.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+                  <div className="order-2 lg:order-1 space-y-4">
+                    <div className="rounded-3xl border border-emerald-100 bg-white/90 p-6 shadow-inner">
+                      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-500">
+                        Tela 02 • Dashboard de consumo
+                      </p>
+                      <h3 className="mt-3 text-xl font-bold text-emerald-800">
+                        Monitoramento em tempo real
+                      </h3>
+                      <p className="mt-4 text-sm leading-relaxed text-slate-700">
+                        O painel de consumo exibe a eficiência semanal (87%) com gráficos detalhados de energia e água por dia. Mostra dicas práticas como "Reduza o uso do chuveiro elétrico em 10 minutos e economize 1,2 kWh" e "Evite lavar calçadas com mangueira. Isso economiza até 80L/dia". Também monitora alimentos próximos ao vencimento, incentivando o reaproveitamento.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="order-1 lg:order-2 overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50/50 to-white/80 p-6 shadow-xl">
+                    <img 
+                      src="/prints/a2.jpg" 
+                      alt="Dashboard de consumo com gráficos de energia e água" 
+                      className="w-full rounded-2xl shadow-lg"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+                  <div className="overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50/50 to-white/80 p-6 shadow-xl">
+                    <img 
+                      src="/prints/a3.jpg" 
+                      alt="Tela de alertas e recomendações personalizadas" 
+                      className="w-full rounded-2xl shadow-lg"
+                    />
+                  </div>
+                  <div className="space-y-4">
+                    <div className="rounded-3xl border border-emerald-100 bg-white/90 p-6 shadow-inner">
+                      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-500">
+                        Tela 03 • Alertas inteligentes
+                      </p>
+                      <h3 className="mt-3 text-xl font-bold text-emerald-800">
+                        Recomendações personalizadas por IA
+                      </h3>
+                      <p className="mt-4 text-sm leading-relaxed text-slate-700">
+                        A IA adaptativa aprende os hábitos da família e sugere ações práticas: economizar energia desligando o ar-condicionado, fechar o chuveiro ao se ensaboar para poupar água, e aproveitar sobras de alimentos para criar novos pratos. O usuário pode filtrar alertas por categoria (Energia, Água, Alimentos) ou visualizar todos de uma vez, além de ativar o modo Eco automático.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+                  <div className="order-2 lg:order-1 space-y-4">
+                    <div className="rounded-3xl border border-emerald-100 bg-white/90 p-6 shadow-inner">
+                      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-500">
+                        Tela 04 • Relatório de impacto
+                      </p>
+                      <h3 className="mt-3 text-xl font-bold text-emerald-800">
+                        Economia visível e impacto ambiental
+                      </h3>
+                      <p className="mt-4 text-sm leading-relaxed text-slate-700">
+                        O relatório semanal apresenta dados consolidados: 12,4 kWh de energia economizada, 110 litros de água poupados, 2,3 kg de alimentos reaproveitados e 4,6 kg de CO₂ evitados. O gráfico de "Progresso Sustentável da Semana" visualiza o desempenho, e o usuário pode exportar o relatório em PDF ou comparar com semanas anteriores para acompanhar a evolução.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="order-1 lg:order-2 overflow-hidden rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50/50 to-white/80 p-6 shadow-xl">
+                    <img 
+                      src="/prints/a4.jpg" 
+                      alt="Relatório de economia e impacto ambiental" 
+                      className="w-full rounded-2xl shadow-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-10 rounded-3xl border border-emerald-100 bg-gradient-to-br from-emerald-50/70 via-white/80 to-teal-50/60 p-8 shadow-inner">
+                <p className="text-sm uppercase tracking-[0.3em] text-emerald-500">
+                  Experiência do usuário
+                </p>
+                <p className="mt-4 text-base leading-relaxed text-slate-700">
+                  O design do aplicativo prioriza simplicidade, clareza visual e acessibilidade. Os tons de verde reforçam a identidade sustentável da marca, enquanto os ícones intuitivos e a navegação fluida garantem que qualquer membro da família possa usar o EcoLiving sem dificuldades. A interface responsiva se adapta a diferentes dispositivos, tornando o monitoramento e controle acessíveis em qualquer lugar.
+                </p>
+              </div>
             </section>
 
             <section id="testes" className="rounded-[2.5rem] border border-emerald-100/60 bg-white/70 p-10 shadow-xl backdrop-blur">
