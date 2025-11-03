@@ -258,7 +258,7 @@ function App() {
               <div className="relative grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
                 <div className="space-y-6">
                   <p className="text-sm font-semibold uppercase tracking-[0.4em] text-emerald-500">
-                    Startup escolar • Automação sustentável
+                    Startup • Automação sustentável
                   </p>
                   <h1 className="text-3xl font-bold text-emerald-900 sm:text-4xl lg:text-5xl">
                     JUNATHKE EcoLiving – automação residencial inteligente com consciência ambiental
@@ -566,7 +566,7 @@ function App() {
                   O desenvolvimento do projeto JUNATHKE EcoLiving foi uma experiência enriquecedora. Mesmo na fase de protótipo, aprendemos sobre automação residencial, sustentabilidade e o impacto positivo que a tecnologia pode gerar na qualidade de vida.
                 </p>
                 <p>
-                  Enfrentamos desafios de organização, definição de tecnologias e criação de uma proposta viável, mas cada obstáculo trouxe novos aprendizados. A colaboração da equipe transformou uma ideia escolar em um projeto com potencial real de aplicação futura.
+                  Enfrentamos desafios de organização, definição de tecnologias e criação de uma proposta viável, mas cada obstáculo trouxe novos aprendizados. A colaboração da equipe transformou uma ideia em um projeto com potencial real de aplicação futura.
                 </p>
                 <p>
                   O progresso alcançado demonstra que pequenas ações podem gerar grandes mudanças. Seguiremos evoluindo para transformar o EcoLiving em um protótipo funcional e, futuramente, em uma solução sustentável aplicada em lares reais.
@@ -578,7 +578,7 @@ function App() {
               <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                   <p className="text-xs uppercase tracking-[0.4em] text-white/60">Junathke EcoLiving</p>
-                  <p className="mt-2 text-lg font-semibold">Projeto de startup escolar • Escola do SESI Corumbá</p>
+                  <p className="mt-2 text-lg font-semibold">Projeto de startup • Escola do SESI Corumbá</p>
                 </div>
                 <div className="text-sm leading-relaxed text-white/80">
                   <p>Turma 2º B • Ano letivo 2025</p>
